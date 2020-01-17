@@ -1,42 +1,51 @@
+<link rel="stylesheet" type="text/css" href="theme.css"> 
+
 head{
-	background-color: #263238;
+	
 }
 
 body{
-	background-color: #3aa8e4;
+	background-color: #94cee0;
+  padding: 0;
+  margin: 0;
 }
 
-
-.logo img {
-  max-width:70%;
-  max-height:70%;
+.top{
+  text-align: center;
+  background-color: #a9a9a9;
+  margin: 0px;
+  padding: 0px;
 }
+
+.logo{
+  max-width:20%;
+  max-height:20%;
+}
+
 
 .greeting{
+  background-color: #f5f5f5;
   font-family: Helvetica;
-  font-size: 35px;
-  padding: 2.5em;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 13px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .message{
-  font-family: "Product Sans",Arial,Helvetica,sans-serif;
-  font-size: 28px;
-  background-color:#ff5f5;
-  width: 500px;
-  padding-top: 50px;
-  padding-right: 30px;
-  padding-bottom: 50px;
+  background-color: #f5f5f5;
+  text-align: left;
+  font-family: Helvetica;
+  font-size: 25px;
+  background-color: #ebe0df;
+  max-width: 1000px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 40px;
   padding-left: 80px;
+  padding-right: 70px;
+  padding-bottom: 50px;
 }
-
-/*
-.primary{
-	background: #f5564e;red
-}
-.bg_white{
-	background: #ffffff;white
-}
-.bg_light{
-	background: #fafafa;darker white
-}
-*/
